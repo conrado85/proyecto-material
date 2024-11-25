@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom'; // Asegúrate de tener react-router-dom
 
 const Navbar = () => {
   return (
-    <AppBar position="static" color="primary">
+    <AppBar position="static">
       <Toolbar>
         <Typography variant="h6" style={{ flexGrow: 1 }}>
           Mi App

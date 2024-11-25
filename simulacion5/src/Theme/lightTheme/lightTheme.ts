@@ -4,13 +4,13 @@ import { createTheme } from '@mui/material/styles';
 const theme = createTheme({
   palette: {
     primary: {
-      main: '#1976d2', // Azul principal
+      main: '#f5b7b1 ', // Azul principal
     },
     secondary: {
       main: '#dc004e', // Rojo secundario
     },
     background: {
-      default: '#f4f4f4', // Fondo predeterminado
+      default: '#eaeded', // Fondo predeterminado
     },
     text: {
       primary: '#000000', // Texto principal
@@ -20,7 +20,7 @@ const theme = createTheme({
   typography: {
     fontFamily: '"Nunito", "Roboto", "Arial", sans-serif', // Fuente predeterminada
     h1: {
-      fontSize: '2.5rem',
+      fontSize: '5rem',
       fontWeight: 700,
       lineHeight: 1.2,
       color: '#333',
